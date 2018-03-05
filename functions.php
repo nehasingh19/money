@@ -1,17 +1,5 @@
 <?php
 
-
-//function addScript()
-//{
-//
-//    wp_enqueue_script('jquery', get_template_directory_uri() . '/js/jquery.min.js', null, '1.11.1');
-//    wp_enqueue_script('bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', null, '3.3.7');
-//    wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', null, '1.0');
-//    wp_enqueue_script('price-range', get_template_directory_uri() . '/js/price-range.js', null, '1.0');
-//    wp_enqueue_script('switcher', get_template_directory_uri() . '/js/switcher.js', null, '1.0');
-//
-//}
-//
 add_action('wp_enqueue_scripts', 'addScript');
 
 

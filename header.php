@@ -21,4 +21,23 @@
 </head>
 
 <body id="page-top">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Income tax</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right ">
+            <li class="active"><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
 <?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
